@@ -1,0 +1,113 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body
+{
+   
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+nav
+{
+  background-color:black;
+  color:white;
+  padding:17px;
+  top:0;
+  position:sticky;
+  z-index: 1000;
+}
+img
+{
+    display:inline-block;
+    
+}
+h1
+{
+   display:inline;
+   margin-left:50px; 
+}
+ul
+{
+    list-style-type:none;
+    display: inline-block;
+    margin-left:50%;
+    font-size: 16px;
+}
+li
+{
+    display:inline;
+   
+}
+a
+{
+    text-decoration:none;
+    color:lightslategray;
+}
+
+li:hover a
+{
+    color:aqua;
+    border:solid gray;
+    border-radius:5px;
+    padding:2px;
+}
+.search-box
+{
+    text-align:center;
+    margin-top:50px; 
+    padding:50px;  
+
+}
+.input
+{
+    width:55%;
+    box-sizing:border-box;
+    padding:10px 10px 10px 44px; 
+    border: 2px solid rgb(120, 6, 65); 
+    border-radius: 10px;
+    transition:all 0.3 ease;
+    font-size: 15px;;
+    
+    
+}
+.search-box:hover
+{
+    transform:scale(1);
+}
+.icon
+{
+    position:absolute; 
+    margin:10px 0px 0px 15px;
+    color:lightslategray ;
+}
+.box 
+{
+    width:224px;
+    border:2px solid black;
+    display:inline-block;
+}
+.box:hover
+{
+    background-color:black;
+    color:white;
+}
+.products
+{
+    text-align: center;
+}
+.about
+{
+    text-align: center;
+    margin-top: 50px;
+    padding:30px;
+}
+.contact
+{
+    margin-top:50px;
+    text-align:center;
+    background-color:black;
+    color:white;
+}
